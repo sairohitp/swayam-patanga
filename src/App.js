@@ -1,10 +1,18 @@
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
 
+import {Home} from "./Pages/Home/home"
+import {Collection} from "./Pages/Collection/collection"
+import {Photogrid} from "./Pages/Photogrid/photogrid"
+import {Contact} from "./Pages/Contact/contact"
+
 function App() {
     return(
-        <div>
-            
-        </div>
+        <Routes>
+            <Route path = "/" element = {<Home/>} />
+            <Route path = "/Collection" element = {<Collection/>} />
+            <Route path = "/Photogrid" element = {<Photogrid/>} />
+            <Route path = "/Contact" element = {<Contact/>} />
+        </Routes>
     )
 }
