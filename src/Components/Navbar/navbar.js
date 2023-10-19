@@ -31,8 +31,13 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div>
-                    <div>{/* iconset */}</div>
-                    <div>{/* salutation */}</div>
+                    <div id={NavCSS.navSocials}>
+                        <i className="fa-brands fa-instagram fa"></i>
+                        <i className="fa-brands fa-twitter fa"></i>
+                        <i className="fa-brands fa-youtube fa"></i>
+                        <i className="fa-regular fa-envelope fa"></i>
+                    </div>
+                    <div></div>
                 </div>
             </nav>
         </div>
