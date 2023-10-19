@@ -4,7 +4,7 @@ import NavCSS from "./Navbar.module.css"
 
 const Navbar = () => {
   return (
-    <div>
+    <nav>
       <div>
         <div><img src = "" id = {NavCSS.navImg}/></div>
         <div>
@@ -22,7 +22,7 @@ const Navbar = () => {
           {/* salutation */}
         </div>
       </div>
-    </div>
+    </nav>
   )
 }
 
