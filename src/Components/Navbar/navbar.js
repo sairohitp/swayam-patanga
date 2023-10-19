@@ -5,6 +5,7 @@ import NavCSS from "./Navbar.module.css"
 const Navbar = () => {
   return (
     <nav>
+      <div className='subsection'>
       <div>
         <div><img src = "" id = {NavCSS.navImg}/></div>
         <div>
@@ -21,6 +22,7 @@ const Navbar = () => {
         <div>
           {/* salutation */}
         </div>
+      </div>
       </div>
     </nav>
   )
