@@ -1,0 +1,29 @@
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-family: 'Libre Bodoni', serif !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+.subsection {
+    width: 1100px;
+    margin: 0px auto;
+}
