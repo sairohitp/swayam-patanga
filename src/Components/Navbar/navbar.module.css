@@ -7,14 +7,22 @@
 
 nav {
     padding: 50px 100px 0px 0px;
+    width: fit-content;
 }
 
 #navTitle {
     color: #000;
 font-family: Inter;
-font-size: 22px;
+font-size: 5px;
 font-style: normal;
 font-weight: 700;
-line-height: 22px; /* 100% */
-letter-spacing: 1.1px;
+line-height: 1px; /* 100% */
+letter-spacing: 3px;
+}
+
+#navTop {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 50px;
 }

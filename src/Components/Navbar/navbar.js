@@ -4,16 +4,17 @@ import NavCSS from "./Navbar.module.css";
 
 const Navbar = () => {
     return (
-        <nav>
             <div className="subsection">
+        <nav>
                 <div>
-                    <div>
+                    <div id = {NavCSS.navTop}>
                         <img src="" id={NavCSS.navImg} />
+                        <div>
+                            <Link to="" id = {NavCSS.navTitle}>SWAYAM PATANGA</Link>
+                        </div>
                     </div>
                     <div>
-                        <div>
-                            <Link to="" id = {NavCSS.navTitle}>SWYAM PATANGA</Link>
-                        </div>
+                        
                         <div>
                             <Link to=""></Link>
                         </div>
@@ -29,8 +30,8 @@ const Navbar = () => {
                     <div>{/* iconset */}</div>
                     <div>{/* salutation */}</div>
                 </div>
-            </div>
         </nav>
+            </div>
     );
 };
 
