@@ -10,19 +10,22 @@ const Navbar = () => {
                     <div id = {NavCSS.navTop}>
                         <img src="" id={NavCSS.navImg} />
                         <div>
-                            <Link to="" id = {NavCSS.navTitle}>SWAYAM PATANGA</Link>
+                            <Link to="" id = {NavCSS.navTitle}>MAYAWS AGNATAP</Link>
                         </div>
                     </div>
                     <div>
                         
                         <div>
-                            <Link to=""></Link>
+                            <Link to="">about</Link>
                         </div>
                         <div>
-                            <Link to=""></Link>
+                            <Link to="">collection</Link>
                         </div>
                         <div>
-                            <Link to=""></Link>
+                            <Link to="">contact</Link>
+                        </div>
+                        <div>
+                            <Link to="">support ❤️</Link>
                         </div>
                     </div>
                 </div>
