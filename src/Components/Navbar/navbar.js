@@ -12,7 +12,7 @@ const Navbar = () => {
                     </div>
                     <div>
                         <div>
-                            <Link to=""></Link>
+                            <Link to="" id = {NavCSS.navTitle}>SWYAM PATANGA</Link>
                         </div>
                         <div>
                             <Link to=""></Link>
