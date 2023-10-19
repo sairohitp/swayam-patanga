@@ -15,7 +15,7 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </div>
-                    <div id = {NavCSS.children}>
+                    <div id={NavCSS.children}>
                         <div>
                             <Link to="">about</Link>
                         </div>
