@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../../Components/Navbar/navbar'
+import CollectionClassifier from '../../Components/CollectionClassifier/CollectionClassifier'
 
 const collection = () => {
   return (
     <div className='subsection section'>
+        <Navbar/>
+        <CollectionClassifier/>
     </div>
   )
 }
