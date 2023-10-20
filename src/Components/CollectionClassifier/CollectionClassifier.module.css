@@ -1,0 +1,13 @@
+#collectionSection {
+    margin-left: 320px;
+}
+
+#collectionSection > div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+
+    overflow-y: scroll;
+    height: 100%;
+}
