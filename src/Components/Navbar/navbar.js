@@ -33,8 +33,8 @@ const Navbar = () => {
                 <div id = {NavCSS.navBottom}>
                     <div id={NavCSS.navSocials}>
                         <i className="fa-brands fa-instagram fa"></i>
-                        <i className="fa-brands fa-twitter fa"></i>
-                        <i className="fa-brands fa-youtube fa"></i>
+                        <i class="fa-solid fa-plane fa"></i>
+                        <i className="fa-brands fa-twitter fa"></i>                        
                         <i className="fa-regular fa-envelope fa"></i>
                     </div>
                     <div id = {NavCSS.salutation}>

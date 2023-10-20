@@ -62,13 +62,13 @@ nav {
 }
 
 #salutation>div:first-child {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
-    letter-spacing: 2.7px;
+    letter-spacing: 5.4px;
 }
 
 #salutation>div:last-child {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.9px;
 }
