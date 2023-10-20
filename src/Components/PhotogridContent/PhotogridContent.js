@@ -3,8 +3,8 @@ import PhotogridContentCSS from "./PhotogridContent.module.css"
 
 const PhotogridContent = () => {
   return (
-    <section>
-        Photogrid
+    <section id = {PhotogridContentCSS.photogridSection}>
+        <div><img></img></div>
     </section>
   )
 }
