@@ -39,7 +39,7 @@ const Navbar = () => {
                     </div>
                     <div id = {NavCSS.salutation}>
                         <div>© swyam patanga</div>
-                        <div>aviation photography</div>
+                        <div>aesth. aviation photography</div>
                     </div>
                 </div>
             </nav>
