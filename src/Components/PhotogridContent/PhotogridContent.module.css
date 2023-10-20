@@ -10,6 +10,11 @@
     width: fit-content;
 }
 
+.topbottomFripleComplex {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .leadingDoubleGridder {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -20,6 +25,20 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: fit-content;
+}
+
+.leadingFripleGridder {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: fit-content;
+    height: fit-content;
+}
+
+.trailingFripleGridder {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: fit-content;
+    height: fit-content;
 }
 
 .IMGgridContainer {
@@ -36,4 +55,9 @@
 .doubleIMGIdentifier {
     height: 270px;
     width: 550px !important;
+}
+
+.fripleIMGIdentifier {
+    height: 550px;
+    width: 550px;
 }
