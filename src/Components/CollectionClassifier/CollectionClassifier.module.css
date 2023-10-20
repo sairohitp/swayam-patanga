@@ -2,7 +2,8 @@
     margin-left: 320px;
 }
 
-#collectionSection > div {
+#collectionSection>div {
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -10,4 +11,10 @@
 
     overflow-y: scroll;
     height: 100%;
+}
+
+.collectionIMG {
+    width: 860px;
+    height: 420px;
+    background: #E0E0E0;
 }

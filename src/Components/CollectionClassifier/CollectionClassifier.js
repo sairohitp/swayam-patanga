@@ -1,20 +1,20 @@
-import React from 'react'
-import CollectionClassifierCSS from "./CollectionClassifier.module.css"
+import React from "react";
+import CollectionClassifierCSS from "./CollectionClassifier.module.css";
 
 const CollectionClassifier = () => {
-  return (
-    <section id = {CollectionClassifierCSS.collectionSection}>
-        <div>
-            <div></div>
+    return (
+        <section id={CollectionClassifierCSS.collectionSection}>
             <div>
-                <img></img>
+                <div>Aviation Photography Collection</div>
+                <div className={CollectionClassifierCSS.collectionIMG}>
+                    <img></img>
+                </div>
+                <div className={CollectionClassifierCSS.collectionIMG}>
+                    <img></img>
+                </div>
             </div>
-            <div>
-                <img></img>
-            </div>
-        </div>
-    </section>
-  )
-}
+        </section>
+    );
+};
 
-export default CollectionClassifier
+export default CollectionClassifier;
