@@ -13,6 +13,7 @@ nav {
     justify-content: space-between;
 
     height: 100vh;
+    padding-right: 100px;
 }
 
 #navTitle {
