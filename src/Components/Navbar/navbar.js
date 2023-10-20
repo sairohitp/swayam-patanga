@@ -4,7 +4,6 @@ import NavCSS from "./Navbar.module.css";
 
 const Navbar = () => {
     return (
-        <div className="subsection">
             <nav>
                 <div>
                     <div id={NavCSS.navTop}>
@@ -43,7 +42,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-        </div>
+        
     );
 };
 
