@@ -25,6 +25,7 @@ body {
 .subsection {
     width: 1180px;
     margin: 0px auto;
+    display: flex;
 }
 
 /* unvisited link */
@@ -53,8 +54,4 @@ a:active {
 
 .fa {
     font-size: 20px;
-}
-
-.section {
-    display: flex;
 }

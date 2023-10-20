@@ -4,7 +4,7 @@ import CollectionClassifier from '../../Components/CollectionClassifier/Collecti
 
 const collection = () => {
   return (
-    <div className='subsection section'>
+    <div className='subsection'>
         <Navbar/>
         <CollectionClassifier/>
     </div>

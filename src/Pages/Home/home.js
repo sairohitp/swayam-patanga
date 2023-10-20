@@ -6,7 +6,7 @@ import HomeContent from '../../Components/HomeContent/HomeContent'
 
 const Home = () => {
   return (
-    <div className="subsection section">
+    <div className="subsection">
       <Navbar/>
       <HomeContent/>
     </div>

@@ -12,8 +12,6 @@
     gap: 50px;
     flex: 1; /* Distribute available space evenly among child elements */
     align-items: center;
-    overflow-y: scroll;
-    width: 100%;
 }
 
 .collectionPageText {
