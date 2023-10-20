@@ -1,3 +1,16 @@
 #photogridSection {
     margin-left: 320px;
+
+}
+
+.tripleGridder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.IMGgridContainer {
+    width: 270px;
+    height: 270px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
 }
