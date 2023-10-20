@@ -15,10 +15,10 @@ const PhotogridContent = () => {
             <div className={PhotogridContentCSS.IMGgridContainer}><img></img></div>
         </div>
         
-        <div>
+        {/* <div className={PhotogridContentCSS.doubleGridder}>
+            <div className={[PhotogridContentCSS.IMGgridContainer, PhotogridContentCSS.doubleIMGIdentifier].join(" ")}></div>
             <div className={PhotogridContentCSS.IMGgridContainer}><img></img></div>
-            <div className={PhotogridContentCSS.IMGgridContainer}><img></img></div>
-        </div>
+        </div> */}
 
         <div className={PhotogridContentCSS.tripleGridder}>
             <div className={PhotogridContentCSS.IMGgridContainer}><img></img></div>

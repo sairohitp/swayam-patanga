@@ -1,6 +1,6 @@
 #photogridSection {
     margin-left: 320px;
-
+    padding-top: 45px;
 }
 
 .tripleGridder {
@@ -8,9 +8,19 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.doubleGridder {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.doubleIMGIdentifier {
+    /* width: 500px !important; */
+}
+
 .IMGgridContainer {
     width: 270px;
     height: 270px;
     background-color: #e0e0e0;
     border-radius: 8px;
+    margin: 5px;
 }
