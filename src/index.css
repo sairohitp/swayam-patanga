@@ -54,3 +54,7 @@ a:active {
 .fa {
     font-size: 20px;
 }
+
+.homeSection {
+    display: flex;
+}

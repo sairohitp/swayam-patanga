@@ -2,10 +2,10 @@ import "./App.css"
 import { Route, Routes } from "react-router-dom"
 
 import Home from "./Pages/Home/Home.js"
-import Collection from "./Pages/Collection/collection"
-import Photogrid from "./Pages/Photogrid/photogrid"
-import Contact from "./Pages/Contact/contact"
-import NotFound from "./Pages/NotFound/notfound"
+import Collection from "./Pages/Collection/Collection"
+import Photogrid from "./Pages/Photogrid/Photogrid"
+import Contact from "./Pages/Contact/Contact"
+import NotFound from "./Pages/NotFound/NotFound"
 
 function App() {
     return(
