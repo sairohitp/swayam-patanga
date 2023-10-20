@@ -37,7 +37,10 @@ const Navbar = () => {
                         <i className="fa-brands fa-youtube fa"></i>
                         <i className="fa-regular fa-envelope fa"></i>
                     </div>
-                    <div></div>
+                    <div>
+                        <div>© swyam patanga</div>
+                        <div>aviation photography</div>
+                    </div>
                 </div>
             </nav>
         </div>
