@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../../Components/Navbar/navbar'
 
 const Photogrid = () => {
   return (
-    <div>Photogrid</div>
+    <div className="subsection">
+        <Navbar/>
+        <PhotogridContent/>
+    </div>
   )
 }
 
