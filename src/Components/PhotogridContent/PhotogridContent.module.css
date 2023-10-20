@@ -1,26 +1,39 @@
 #photogridSection {
     margin-left: 320px;
     padding-top: 45px;
+    width: fit-content;
 }
 
 .tripleGridder {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
 }
 
-.doubleGridder {
+.leadingDoubleGridder {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    width: fit-content;
 }
 
-.doubleIMGIdentifier {
-    /* width: 500px !important; */
+.trainlingDoubleGridder {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: fit-content;
 }
 
 .IMGgridContainer {
-    width: 270px;
-    height: 270px;
     background-color: #e0e0e0;
     border-radius: 8px;
     margin: 5px;
+}
+
+.tripleGridder > .IMGgridContainer {
+    height: 270px;
+    width: 270px;
+}
+
+.doubleIMGIdentifier {
+    height: 270px;
+    width: 550px !important;
 }
