@@ -30,7 +30,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id = {NavCSS.navBottom}>
                     <div id={NavCSS.navSocials}>
                         <i className="fa-brands fa-instagram fa"></i>
                         <i className="fa-brands fa-twitter fa"></i>
