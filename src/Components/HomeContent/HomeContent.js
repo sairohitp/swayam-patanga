@@ -23,20 +23,20 @@ const HomeContent = () => {
                     frame at a time.
                 </p>
             </div>
-            <div id = {HomeContentCSS.collectionG}>
-            <div id = {HomeContentCSS.categWindows}>
-                <div>
-                    <img></img>
+            <div id={HomeContentCSS.collectionG}>
+                <div id={HomeContentCSS.categWindows}>
+                    <div>
+                        <img></img>
+                    </div>
+                    <div>
+                        <img></img>
+                    </div>
                 </div>
                 <div>
-                    <img></img>
+                    <Link to="" id={HomeContentCSS.collectionLink}>
+                        view the complete collection &rarr;
+                    </Link>
                 </div>
-            </div>
-            <div>
-                <Link to="" id={HomeContentCSS.collectionLink}>
-                    view the complete collection &rarr;
-                </Link>
-            </div>
             </div>
         </section>
     );
