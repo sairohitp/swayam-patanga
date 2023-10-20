@@ -5,7 +5,7 @@ const CollectionClassifier = () => {
     return (
         <section id={CollectionClassifierCSS.collectionSection}>
             <div>
-                <div>Aviation Photography Collection</div>
+                <div className = {CollectionClassifierCSS.collectionPageText}>Aviation Photography Collection</div>
                 <div className={CollectionClassifierCSS.collectionIMG}>
                     <img></img>
                 </div>

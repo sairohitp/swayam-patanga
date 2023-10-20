@@ -18,3 +18,13 @@
     height: 420px;
     background: #E0E0E0;
 }
+
+#collectionPageText {
+    color: #000;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 100% */
+letter-spacing: 1.1px;
+}
