@@ -16,16 +16,34 @@
     width: 100%;
 }
 
-.collectionIMG {
-    width: 860px;
-    background: #E0E0E0;
-    flex: 1; /* Distribute available space evenly among child elements */
-}
-
 .collectionPageText {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 3px;
     padding-top: 50px;
+}
+
+.collectionIMG {
+    width: 860px;
+    background: #E0E0E0;
+    flex: 1;
+    position: relative;
+    text-align: center; /* Center text horizontally within .collectionIMG */
+}
+
+.categoryLink {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the link both horizontally and vertically */
+}
+
+.categoryLink Link {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px
 }
