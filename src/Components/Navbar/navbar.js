@@ -9,17 +9,17 @@ const Navbar = () => {
                     <div id={NavCSS.navTop}>
                         <img src="" id={NavCSS.navImg} />
                         <div>
-                            <Link to="" id={NavCSS.navTitle}>
+                            <Link to="/" id={NavCSS.navTitle}>
                                 MAYAWS AGNATAP
                             </Link>
                         </div>
                     </div>
                     <div id={NavCSS.children}>
                         <div>
-                            <Link to="">about</Link>
+                            <Link to="/">about</Link>
                         </div>
                         <div>
-                            <Link to="">collection</Link>
+                            <Link to="/Collection">collection</Link>
                         </div>
                         <div>
                             <Link to="">contact</Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </div>
                 <div id = {NavCSS.navBottom}>
                     <div id={NavCSS.navSocials}>
-                        <i className="fa-brands fa-instagram fa"></i>
+                        <Link to = {{pathname: "www.instagram.com/sairohitp"}} target="_blank"><i className="fa-brands fa-instagram fa"></i></Link>
                         <i class="fa-solid fa-plane fa"></i>
                         <i className="fa-brands fa-twitter fa"></i>                        
                         <i className="fa-regular fa-envelope fa"></i>

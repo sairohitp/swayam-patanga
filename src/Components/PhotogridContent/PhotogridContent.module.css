@@ -18,13 +18,11 @@
 .leadingDoubleGridder {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    width: fit-content;
 }
 
 .trainlingDoubleGridder {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    width: fit-content;
 }
 
 .leadingFripleGridder {
@@ -44,7 +42,7 @@
 .IMGgridContainer {
     background-color: #e0e0e0;
     border-radius: 8px;
-    margin: 5px;
+    margin: 8px;
 }
 
 .tripleGridder > .IMGgridContainer {
@@ -54,10 +52,10 @@
 
 .doubleIMGIdentifier {
     height: 270px;
-    width: 550px !important;
+    width: 555px !important;
 }
 
 .fripleIMGIdentifier {
     height: 550px;
-    width: 550px;
+    width: 555px;
 }
