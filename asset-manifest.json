@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/swayam-patanga/static/css/main.65e8d220.css",
-    "main.js": "/swayam-patanga/static/js/main.5ed1b6d0.js",
-    "static/js/787.4991e9ea.chunk.js": "/swayam-patanga/static/js/787.4991e9ea.chunk.js",
-    "index.html": "/swayam-patanga/index.html",
-    "main.65e8d220.css.map": "/swayam-patanga/static/css/main.65e8d220.css.map",
-    "main.5ed1b6d0.js.map": "/swayam-patanga/static/js/main.5ed1b6d0.js.map",
-    "787.4991e9ea.chunk.js.map": "/swayam-patanga/static/js/787.4991e9ea.chunk.js.map"
+    "main.css": "/swayam-patanga/Home/static/css/main.65e8d220.css",
+    "main.js": "/swayam-patanga/Home/static/js/main.2d4aa3b5.js",
+    "static/js/787.4991e9ea.chunk.js": "/swayam-patanga/Home/static/js/787.4991e9ea.chunk.js",
+    "index.html": "/swayam-patanga/Home/index.html",
+    "main.65e8d220.css.map": "/swayam-patanga/Home/static/css/main.65e8d220.css.map",
+    "main.2d4aa3b5.js.map": "/swayam-patanga/Home/static/js/main.2d4aa3b5.js.map",
+    "787.4991e9ea.chunk.js.map": "/swayam-patanga/Home/static/js/787.4991e9ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65e8d220.css",
-    "static/js/main.5ed1b6d0.js"
+    "static/js/main.2d4aa3b5.js"
   ]
 }
