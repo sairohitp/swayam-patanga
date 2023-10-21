@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/swayam-patanga/static/css/main.65e8d220.css",
-    "main.js": "/swayam-patanga/static/js/main.cf7aad22.js",
+    "main.js": "/swayam-patanga/static/js/main.c9df70ad.js",
     "static/js/787.4991e9ea.chunk.js": "/swayam-patanga/static/js/787.4991e9ea.chunk.js",
     "index.html": "/swayam-patanga/index.html",
     "main.65e8d220.css.map": "/swayam-patanga/static/css/main.65e8d220.css.map",
-    "main.cf7aad22.js.map": "/swayam-patanga/static/js/main.cf7aad22.js.map",
+    "main.c9df70ad.js.map": "/swayam-patanga/static/js/main.c9df70ad.js.map",
     "787.4991e9ea.chunk.js.map": "/swayam-patanga/static/js/787.4991e9ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65e8d220.css",
-    "static/js/main.cf7aad22.js"
+    "static/js/main.c9df70ad.js"
   ]
 }
