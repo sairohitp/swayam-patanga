@@ -18,7 +18,7 @@ const CollectionClassifier = () => {
                 <div className={CollectionClassifierCSS.collectionIMG}>
                     <img></img>
                     <div className={CollectionClassifierCSS.categoryLink}>
-                        <Link to = "">Commercial &rarr;</Link>
+                        <Link to = "/Photogrid">Commercial &rarr;</Link>
                     </div>
                 </div>
             </div>

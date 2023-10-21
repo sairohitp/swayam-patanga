@@ -1,3 +1,50 @@
 #contactCSSsection {
     margin-left: 320px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-35%, -50%);
+}
+
+.field,
+textarea {
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    /* outline-color: white;
+    outline-width: 1px; */
+    outline: none;
+    font-size: 14px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+
+label {
+    font-size: 14px;
+}
+
+#submitbutton {
+    padding: 14px 40px;
+    background-color: white;
+    color: black;
+}
+
+#submitbutton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
