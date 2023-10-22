@@ -3,7 +3,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import ContactCSS from "./Contact.module.css"
 import ContactModule from '../../Components/ContactModule/ContactModule'
 
-const contact = () => {
+const Contact = () => {
   return (
     <div className='subsection'>
         <Navbar/>
@@ -12,4 +12,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

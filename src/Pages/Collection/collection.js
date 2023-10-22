@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import CollectionClassifier from '../../Components/CollectionClassifier/CollectionClassifier'
 
-const collection = () => {
+const Collection = () => {
   return (
     <div className='subsection'>
         <Navbar/>
@@ -11,4 +11,4 @@ const collection = () => {
   )
 }
 
-export default collection
+export default Collection
