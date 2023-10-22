@@ -2,12 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavCSS from "./Navbar.module.css";
 
+import SitePFP from "../../assets/images/profile/pfp.jpg"
+
 const Navbar = () => {
     return (
             <nav>
                 <div>
                     <div id={NavCSS.navTop}>
-                        <img src="" id={NavCSS.navImg} />
+                        <img src={SitePFP} id={NavCSS.navImg} />
                         <div>
                             <Link to="/" id={NavCSS.navTitle}>
                                 MAYAWS AGNATAP

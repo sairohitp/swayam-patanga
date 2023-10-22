@@ -1,6 +1,8 @@
 import React from 'react';
 import PhotogridContentCSS from './PhotogridContent.module.css';
 
+import tripleGrid from './tripleGrid';
+
 const PhotogridContent = () => {
   const images = [];
   for (let i = 1; i <= 26; i++) {
@@ -9,19 +11,14 @@ const PhotogridContent = () => {
 
   return (
     <section id = {PhotogridContentCSS.photogridSection}>
-        <div className={PhotogridContentCSS.tripleGridder}>
         
-            <div className={PhotogridContentCSS.IMGgridContainer}>
-                <img src = {images[0]}/>
-            </div>
-            <div className={PhotogridContentCSS.IMGgridContainer}>
-            <img src = {images[1]}/>
-            </div>
-            <div className={PhotogridContentCSS.IMGgridContainer}>
-                <img src = {images[2]}/>
-            </div>
-    
-        </div>
+        <tripleGrid
+
+            imgSRC1 = {images[0]}
+            imgSRC2 = {images[0]}
+            imgSRC3 = {images[0]}
+
+        />
         
         <div className={PhotogridContentCSS.leadingDoubleGridder}>
             <div className={[PhotogridContentCSS.IMGgridContainer, PhotogridContentCSS.doubleIMGIdentifier].join(" ")}>

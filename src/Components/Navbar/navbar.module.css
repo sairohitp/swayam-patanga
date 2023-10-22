@@ -3,6 +3,7 @@
     height: 220px;
     background-color: #a7a7a7;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 nav {
