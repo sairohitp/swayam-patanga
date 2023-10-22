@@ -10,7 +10,7 @@ import NotFound from "./Pages/NotFound/NotFound";
 const App = () => {
     return (
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename="/">
                 <Routes>
                     <Route exact path="/Home" element={<Home />} />
                     <Route path="/Collection" element={<Collection />} />
