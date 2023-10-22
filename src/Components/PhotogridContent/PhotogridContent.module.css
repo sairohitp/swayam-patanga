@@ -36,10 +36,10 @@
 }
 
 .IMGgridContainer {
-    background-color: #e0e0e0;
-    border-radius: 8px;
     margin: 8px; 
     object-fit: cover;
+    border: 1px solid #707070;
+    border-radius: 8px;
 }
 
 .IMGgridContainer img {
@@ -54,13 +54,24 @@
     width: 270px;
 }
 
+.leadingDoubleGridder > .IMGgridContainer {
+    height: 270px;
+}
+
+.trainlingDoubleGridder > .IMGgridContainer {
+    height: 270px;
+}
+
+.topbottomFripleComplex > .IMGgridContainer {
+    height: 270px;
+}
+
 .doubleIMGIdentifier {
     height: 270px;
     width: 555px !important;
 }
 
 .fripleIMGIdentifier {
-    border: 1px solid red;
-    height: 568px;
+    height: 555px;
     width: 555px;
 }
