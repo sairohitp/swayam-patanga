@@ -9,20 +9,26 @@ const PhotogridContent = () => {
 
   return (
     <section id={PhotogridContentCSS.photogridSection}>
+
       <div className={PhotogridContentCSS.tripleGridder}>
-        
           <div className={PhotogridContentCSS.IMGgridContainer}>
             <img src={""} />
           </div>
-        
+          <div className={PhotogridContentCSS.IMGgridContainer}>
+            <img src={""} />
+          </div>
+          <div className={PhotogridContentCSS.IMGgridContainer}>
+            <img src={""} />
+          </div>
       </div>
 
       <div className={PhotogridContentCSS.leadingDoubleGridder}>
-        
           <div className={PhotogridContentCSS.IMGgridContainer}>
             <img src={""} />
           </div>
-        
+          <div className={PhotogridContentCSS.IMGgridContainer}>
+            <img src={""} />
+          </div>        
       </div>
 
       <div className={PhotogridContentCSS.trainlingDoubleGridder}>
@@ -30,11 +36,20 @@ const PhotogridContent = () => {
           <div className={PhotogridContentCSS.IMGgridContainer}>
             <img src={""} />
           </div>
+          <div className={PhotogridContentCSS.IMGgridContainer}>
+            <img src={""} />
+          </div>
         
       </div>
 
       <div className={PhotogridContentCSS.tripleGridder}>
         
+          <div className={PhotogridContentCSS.IMGgridContainer}>
+            <img src={""} />
+          </div>
+          <div className={PhotogridContentCSS.IMGgridContainer}>
+            <img src={""} />
+          </div>
           <div className={PhotogridContentCSS.IMGgridContainer}>
             <img src={""} />
           </div>
@@ -47,13 +62,17 @@ const PhotogridContent = () => {
             <img src={""} />
           </div>
         
-        <div className={PhotogridContentCSS.topbottomFripleComplex}>
-          
-            <div className={PhotogridContentCSS.IMGgridContainer}>
-              <img src={""} />
+            <div className={PhotogridContentCSS.topbottomFripleComplex}>
+                
+                <div className={PhotogridContentCSS.IMGgridContainer}>
+                    <img src={""} />
+                </div>
+                
+                <div className={PhotogridContentCSS.IMGgridContainer}>
+                    <img src={""} />
+                </div>
+                
             </div>
-          
-        </div>
       </div>
 
       <div className={PhotogridContentCSS.tripleGridder}>
@@ -65,13 +84,15 @@ const PhotogridContent = () => {
       </div>
 
       <div className={PhotogridContentCSS.trailingFripleGridder}>
-        <div className={PhotogridContentCSS.topbottomFripleComplex}>
-          
+        <div className={PhotogridContentCSS.topbottomFripleComplex}>        
             <div className={PhotogridContentCSS.IMGgridContainer}>
               <img src={""} />
-            </div>
-          
+            </div>          
         </div>
+        
+          <div className={PhotogridContentCSS.IMGgridContainer}>
+            <img src={""} />
+          </div>
         
           <div className={PhotogridContentCSS.IMGgridContainer}>
             <img src={""} />
