@@ -4,7 +4,7 @@ import PhotogridContentCSS from './PhotogridContent.module.css';
 const PhotogridContent = () => {
   const images = [];
   for (let i = 1; i <= 26; i++) {
-    images.push(require(`../../assets/images/collections/commercial/Picture0000${i}.jpg`));
+    images.push(require(`../../assets/images/collections/commercial/Picture${i}.jpg`));
   }
 
   return (
