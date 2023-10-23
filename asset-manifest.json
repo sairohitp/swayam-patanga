@@ -1,15 +1,42 @@
 {
   "files": {
-    "main.css": "/swayam-patanga/static/css/main.0dc7f43c.css",
-    "main.js": "/swayam-patanga/static/js/main.4df36c5d.js",
+    "main.css": "/swayam-patanga/static/css/main.31826145.css",
+    "main.js": "/swayam-patanga/static/js/main.ac33fea0.js",
     "static/js/787.4991e9ea.chunk.js": "/swayam-patanga/static/js/787.4991e9ea.chunk.js",
+    "static/media/Picture21.jpg": "/swayam-patanga/static/media/Picture21.f1f7c5e4c9094f191876.jpg",
+    "static/media/Picture3.jpg": "/swayam-patanga/static/media/Picture3.43b6dae9296a2398b0ac.jpg",
+    "static/media/Picture11.jpg": "/swayam-patanga/static/media/Picture11.994a87e17fe0508f4f55.jpg",
+    "static/media/Picture24.jpg": "/swayam-patanga/static/media/Picture24.2ced8b5adf9342edf863.jpg",
+    "static/media/Picture23.jpg": "/swayam-patanga/static/media/Picture23.51a24e7205b6249bfe5e.jpg",
+    "static/media/Picture18.jpg": "/swayam-patanga/static/media/Picture18.5e15a73eb55497ad20f1.jpg",
+    "static/media/Picture4.jpg": "/swayam-patanga/static/media/Picture4.ffabd72b07e3a72a7a1f.jpg",
+    "static/media/Picture20.jpg": "/swayam-patanga/static/media/Picture20.781183dcae8a40e78c42.jpg",
+    "static/media/Picture17.jpg": "/swayam-patanga/static/media/Picture17.f9856f64ca5984541765.jpg",
+    "static/media/Picture16.jpg": "/swayam-patanga/static/media/Picture16.72e5115386f2977255d5.jpg",
+    "static/media/Picture22.jpg": "/swayam-patanga/static/media/Picture22.d0dbccf65070ce39c091.jpg",
+    "static/media/Picture26.jpg": "/swayam-patanga/static/media/Picture26.3cab6ddca044bb342b96.jpg",
+    "static/media/Picture19.jpg": "/swayam-patanga/static/media/Picture19.375e41e5f585e66d690f.jpg",
+    "static/media/Picture7.jpg": "/swayam-patanga/static/media/Picture7.a83399e16ec128415a37.jpg",
+    "static/media/Picture2.jpg": "/swayam-patanga/static/media/Picture2.9cce58ebd0948e9f46cf.jpg",
+    "static/media/Picture25.jpg": "/swayam-patanga/static/media/Picture25.dcb733ff59304a275efa.jpg",
+    "static/media/Picture12.jpg": "/swayam-patanga/static/media/Picture12.703dfe4ce09a02217ec3.jpg",
+    "static/media/Picture15.jpg": "/swayam-patanga/static/media/Picture15.f75c758efb04d646be82.jpg",
+    "static/media/Picture13.jpg": "/swayam-patanga/static/media/Picture13.e5ca7b297171034a9a48.jpg",
+    "static/media/Picture5.jpg": "/swayam-patanga/static/media/Picture5.5a1cd8006687c6442d0e.jpg",
+    "static/media/Picture1.jpg": "/swayam-patanga/static/media/Picture1.0e88674180fcb11ee0b2.jpg",
+    "static/media/Picture14.jpg": "/swayam-patanga/static/media/Picture14.9eeb36d4c51445f79e22.jpg",
+    "static/media/Picture9.jpg": "/swayam-patanga/static/media/Picture9.5c432b2f23510781afc0.jpg",
+    "static/media/Picture8.jpg": "/swayam-patanga/static/media/Picture8.a5056fdfa79fa77b11cd.jpg",
+    "static/media/Picture6.jpg": "/swayam-patanga/static/media/Picture6.8b314ad359b311ee90e4.jpg",
+    "static/media/Picture10.jpg": "/swayam-patanga/static/media/Picture10.08e3eb73ae04d57bdae0.jpg",
+    "static/media/pfp.jpg": "/swayam-patanga/static/media/pfp.fdf49554a77dd63e667f.jpg",
     "index.html": "/swayam-patanga/index.html",
-    "main.0dc7f43c.css.map": "/swayam-patanga/static/css/main.0dc7f43c.css.map",
-    "main.4df36c5d.js.map": "/swayam-patanga/static/js/main.4df36c5d.js.map",
+    "main.31826145.css.map": "/swayam-patanga/static/css/main.31826145.css.map",
+    "main.ac33fea0.js.map": "/swayam-patanga/static/js/main.ac33fea0.js.map",
     "787.4991e9ea.chunk.js.map": "/swayam-patanga/static/js/787.4991e9ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dc7f43c.css",
-    "static/js/main.4df36c5d.js"
+    "static/css/main.31826145.css",
+    "static/js/main.ac33fea0.js"
   ]
 }
