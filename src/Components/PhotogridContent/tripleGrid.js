@@ -1,7 +1,7 @@
 import React from 'react'
 import PhotogridContentCSS from './PhotogridContent.module.css';
 
-const tripleGrid = (props) => {
+const TripleGrid = (props) => {
     
   return (
     <div className={PhotogridContentCSS.tripleGridder}>
@@ -13,11 +13,11 @@ const tripleGrid = (props) => {
             <img src = {props.imgSRC2}/>
             </div>
             <div className={PhotogridContentCSS.IMGgridContainer}>
-                <img src = {props.img3SRC}/>
+                <img src = {props.imgSRC3}/>
             </div>
     
     </div>
   )
 }
 
-export default tripleGrid
+export default TripleGrid

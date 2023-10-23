@@ -1,7 +1,7 @@
 import React from 'react';
 import PhotogridContentCSS from './PhotogridContent.module.css';
 
-import tripleGrid from './tripleGrid';
+import TripleGrid from './TripleGrid';
 
 const PhotogridContent = () => {
   const images = [];
@@ -12,7 +12,7 @@ const PhotogridContent = () => {
   return (
     <section id = {PhotogridContentCSS.photogridSection}>
         
-        <tripleGrid
+        <TripleGrid
 
             imgSRC1 = {images[0]}
             imgSRC2 = {images[0]}
