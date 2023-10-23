@@ -1,9 +1,9 @@
 import React from 'react'
 
-const trailingFriple = () => {
+const TrailingFriple = () => {
   return (
-    <div>trailingFriple</div>
+    <div>TrailingFriple</div>
   )
 }
 
-export default trailingFriple
+export default TrailingFriple
