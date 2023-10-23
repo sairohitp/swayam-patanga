@@ -1,9 +1,9 @@
 import React from 'react'
 
-const leadingFriple = () => {
+const LeadingFriple = () => {
   return (
-    <div>leadingFriple</div>
+    <div>LeadingFriple</div>
   )
 }
 
-export default leadingFriple
+export default LeadingFriple

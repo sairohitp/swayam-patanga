@@ -2,7 +2,7 @@ import React from 'react'
 import PhotogridContentCSS from './PhotogridContent.module.css';
 
 
-const leadingDouble = () => {
+const LeadingDouble = (props) => {
   return (
     <div className={PhotogridContentCSS.leadingDoubleGridder}>
         <div className={[PhotogridContentCSS.IMGgridContainer, PhotogridContentCSS.doubleIMGIdentifier].join(" ")}>
@@ -15,4 +15,4 @@ const leadingDouble = () => {
   )
 }
 
-export default leadingDouble
+export default LeadingDouble

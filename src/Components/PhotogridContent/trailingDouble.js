@@ -1,9 +1,9 @@
 import React from 'react'
 
-const trailingDouble = () => {
+const TrailingDouble = () => {
   return (
-    <div>trailingDouble</div>
+    <div>TrailingDouble</div>
   )
 }
 
-export default trailingDouble
+export default TrailingDouble
