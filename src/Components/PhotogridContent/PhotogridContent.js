@@ -4,6 +4,7 @@ import PhotogridContentCSS from "./PhotogridContent.module.css";
 import TripleGrid from "./TripleGrid";
 import LeadingDouble from "./LeadingDouble";
 import TrailingDouble from "./trailingDouble";
+import LeadingFriple from "./leadingFriple";
 
 const PhotogridContent = () => {
     const images = [];
@@ -31,48 +32,24 @@ const PhotogridContent = () => {
                 imgSRC2={images[0]} 
             />
 
-            <div className={PhotogridContentCSS.tripleGridder}>
-                <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[7]} />
-                </div>
-                <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[8]} />
-                </div>
-                <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[9]} />
-                </div>
-            </div>
+            <TripleGrid
+                imgSRC1={images[0]}
+                imgSRC2={images[0]}
+                imgSRC3={images[0]}
+            />
+            
+            <LeadingFriple
+                imgSRC1={images[0]}
+                imgSRC2={images[0]}
+                imgSRC3={images[0]}
+            />
 
-            <div className={PhotogridContentCSS.leadingFripleGridder}>
-                <div
-                    className={[
-                        PhotogridContentCSS.IMGgridContainer,
-                        PhotogridContentCSS.fripleIMGIdentifier,
-                    ].join(" ")}
-                >
-                    <img src={images[10]} />
-                </div>
-                <div className={PhotogridContentCSS.topbottomFripleComplex}>
-                    <div className={PhotogridContentCSS.IMGgridContainer}>
-                        <img src={images[11]} />
-                    </div>
-                    <div className={PhotogridContentCSS.IMGgridContainer}>
-                        <img src={images[12]} />
-                    </div>
-                </div>
-            </div>
-
-            <div className={PhotogridContentCSS.tripleGridder}>
-                <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[13]} />
-                </div>
-                <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[14]} />
-                </div>
-                <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[15]} />
-                </div>
-            </div>
+            <TripleGrid
+                imgSRC1={images[0]}
+                imgSRC2={images[0]}
+                imgSRC3={images[0]}
+            />
+            
 
             <div className={PhotogridContentCSS.trailingFripleGridder}>
                 <div className={PhotogridContentCSS.topbottomFripleComplex}>
