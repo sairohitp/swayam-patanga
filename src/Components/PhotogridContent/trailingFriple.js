@@ -1,14 +1,15 @@
 import React from "react";
+import PhotogridContentCSS from "./PhotogridContent.module.css";
 
-const TrailingFriple = () => {
+const TrailingFriple = (props) => {
     return (
         <div className={PhotogridContentCSS.trailingFripleGridder}>
             <div className={PhotogridContentCSS.topbottomFripleComplex}>
                 <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[16]} />
+                    <img src={props.imgSRC1} />
                 </div>
                 <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[17]} />
+                    <img src={props.imgSRC2} />
                 </div>
             </div>
             <div
@@ -17,7 +18,7 @@ const TrailingFriple = () => {
                     PhotogridContentCSS.fripleIMGIdentifier,
                 ].join(" ")}
             >
-                <img src={images[18]} />
+                <img src={props.imgSRC3} />
             </div>
         </div>
     );
