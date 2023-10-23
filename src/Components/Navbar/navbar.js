@@ -26,10 +26,10 @@ const Navbar = () => {
                         <div className={NavCSS.navButtons}>collections</div>
                     </Link>
                     <Link to="/Contact">
-                        <div className={NavCSS.navButtons}>contact</div>
+                        <div className={NavCSS.navButtons}>contact me</div>
                     </Link>
                     <Link to="/Collection">
-                        <div className={NavCSS.navButtons}>support</div>
+                        <div className={NavCSS.navButtons}>support 🙏</div>
                     </Link>
                     
                 </div>
