@@ -3,6 +3,7 @@ import PhotogridContentCSS from "./PhotogridContent.module.css";
 
 import TripleGrid from "./TripleGrid";
 import LeadingDouble from "./LeadingDouble";
+import TrailingDouble from "./trailingDouble";
 
 const PhotogridContent = () => {
     const images = [];
@@ -25,19 +26,10 @@ const PhotogridContent = () => {
                 imgSRC2={images[0]} 
             />
 
-            <div className={PhotogridContentCSS.trainlingDoubleGridder}>
-                <div className={PhotogridContentCSS.IMGgridContainer}>
-                    <img src={images[5]} />
-                </div>
-                <div
-                    className={[
-                        PhotogridContentCSS.IMGgridContainer,
-                        PhotogridContentCSS.doubleIMGIdentifier,
-                    ].join(" ")}
-                >
-                    <img src={images[6]} />
-                </div>
-            </div>
+            <TrailingDouble
+                imgSRC1={images[0]} 
+                imgSRC2={images[0]} 
+            />
 
             <div className={PhotogridContentCSS.tripleGridder}>
                 <div className={PhotogridContentCSS.IMGgridContainer}>
